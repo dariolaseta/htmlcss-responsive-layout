@@ -133,6 +133,33 @@ div.card p{
     margin-left: 2rem;
 }
 
+section.benefits div.row .box{
+    background-color: white;
+}
+
+section.benefits div.row .box h2{
+    font-size: 4rem;
+    text-align: left;
+    color: #9792e4;
+}
+
+section.benefits div.row .box p{
+    text-align: left;
+    color: #9792e4;
+    margin: 2rem;
+}
+
+section.benefits div.row .box p.description{
+    text-align: left;
+    color: grey;
+    margin: 2rem;
+}
+
+div.row .box button{
+    margin: 0 2rem 2rem;
+    background-color: #9792e4;
+}
+
 div.box-big p{
     margin: 2rem;
     width: 40%;
@@ -246,7 +273,6 @@ div.box-big button{
 
     section.jumbo div.box{
         width: calc(100% / 3);
-        height: 400px;
         margin: .5rem;
     }
 
@@ -277,8 +303,6 @@ div.box-big button{
     }
 
     div.row div.box{
-        height: 400px;
-        width: 300px;
         margin: 1rem;
         
     }
@@ -300,9 +324,12 @@ div.box-big button{
         margin-top: 20rem;
     }
 
+    div.row{
+        flex-wrap: nowrap;
+        width: calc(100% / 3);
+    }
+
     div.row div.box{
-        height: 400px;
-        width: 300px;
         margin: 1rem;
     }
 }
