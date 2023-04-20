@@ -144,4 +144,8 @@ section.benefits h2{
     section.strategic-planning{
         flex-direction: column;
     }
+
+    section.testimonials{
+        flex-direction: column;
+    }
 }
