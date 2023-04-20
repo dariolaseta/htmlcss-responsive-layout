@@ -18,6 +18,16 @@ header{
     color: white;
 }
 
+button{
+    border: none;
+    padding: .8rem 3rem;
+    border-radius: 1.5rem;
+    background-color: #0084fd;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
 footer{
     background-color: #333333;
     height: 400px;
@@ -42,11 +52,45 @@ section.jumbo{
     margin-bottom: 2rem;
 }
 
+div.box-big img{
+    width: 40%;
+    position: absolute;
+    right: 50px;
+    bottom: 0;
+}
+
+div.box .fa-solid{
+    font-size: 5rem;
+    color: #0084fd;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+div.box-small{
+    flex-direction: column;
+    text-align: center;
+}
+
+div.box-small p{
+    line-height: 2rem;
+    padding: 1rem;
+}
+
 section.benefits h2{
     font-size: 2rem;
     margin: 2rem;
     color: white;
     text-align: center;
+}
+
+div.box-big p{
+    margin: 2rem;
+    width: 40%;
+    line-height: 2rem;
+}
+
+div.box-big button{
+    margin-left: 2rem;
 }
 
 /* RIMUOVERE ALTEZZE FISSE */
@@ -78,10 +122,16 @@ section.benefits h2{
 }
 
 .box{
-    width: 300px;
-    height: 200px;
+    width: 50%;
     background-color: #b5ddff;
-    border-radius: 10%;
+    border-radius: 1.3rem;
+    position: relative;
+}
+
+.blue-text{
+    color: #0084fd;
+    font-weight: bold;
+    font-size: 1.5rem;
 }
 
 .purple-background{
