@@ -6,6 +6,8 @@
 
 body{
     font-family: 'Open Sans', sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 ul{
@@ -37,6 +39,11 @@ header nav ul li{
     margin: 1rem;
 }
 
+section.jumbo{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
 section.benefits h2{
     font-size: 2rem;
     margin: 2rem;
@@ -55,13 +62,12 @@ section.benefits h2{
     flex-direction: row;
 }
 
-.space-between{
-    justify-content: space-between;
+.wrap{
+    flex-wrap: wrap;
 }
 
-.container{
-    max-width: 1000px;
-    margin: 0 auto;
+.space-between{
+    justify-content: space-between;
 }
 
 .margin{
@@ -116,4 +122,22 @@ section.benefits h2{
     width: 500px;
     height: 500px;
     background-color: red;
+}
+
+/* Tablet */
+
+@media screen and (min-width: 768px) {
+    .flex{
+        flex-direction: row;
+    }
+
+    section.jumbo div.box{
+        width: calc(100% / 3);
+        height: 400px;
+        margin: .5rem;
+    }
+
+    section.jumbo div.box-big{
+        width: calc((100% / 3) * 2);
+    }
 }
