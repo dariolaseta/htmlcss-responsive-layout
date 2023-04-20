@@ -33,15 +33,15 @@ section.benefits h2{
 
 .flex{
     display: flex;
+    flex-direction: column;
+}
+
+.flex-row{
     flex-direction: row;
 }
 
 .space-between{
     justify-content: space-between;
-}
-
-.flex-column{
-    flex-direction: column;
 }
 
 .container{
@@ -93,6 +93,12 @@ section.benefits h2{
 
 .pic{
     width: 30%;
+    height: 500px;
+    background-color: red;
+}
+
+.get-started-container{
+    width: 500px;
     height: 500px;
     background-color: red;
 }
