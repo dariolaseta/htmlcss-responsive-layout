@@ -44,6 +44,11 @@ section.benefits h2{
     flex-direction: column;
 }
 
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
 .margin{
     margin: 1rem auto;
 }
@@ -78,4 +83,16 @@ section.benefits h2{
     height: 300px;
     border-radius: 10%;
     background-color: #9792e4;
+}
+
+.about-us{
+    width: 70%;
+    height: 500px;
+    background-color: red;
+}
+
+.pic{
+    width: 30%;
+    height: 500px;
+    background-color: red;
 }
