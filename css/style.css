@@ -6,8 +6,6 @@
 
 body{
     font-family: 'Open Sans', sans-serif;
-    max-width: 1200px;
-    margin: 0 auto;
 }
 
 ul{
@@ -56,6 +54,11 @@ section.benefits h2{
 .flex{
     display: flex;
     flex-direction: column;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 .flex-row{
@@ -110,12 +113,14 @@ section.benefits h2{
     width: 70%;
     height: 500px;
     background-color: red;
+    border: 2px dotted black;
 }
 
 .pic{
     width: 30%;
     height: 500px;
     background-color: red;
+    border: 2px dotted black;
 }
 
 .get-started-container{
@@ -141,6 +146,10 @@ section.benefits h2{
         width: calc((100% / 3) * 2);
     }
 
+    .box-strategic{
+        width: 100%;
+    }
+
     section.strategic-planning{
         flex-direction: column;
     }
@@ -161,5 +170,17 @@ section.benefits h2{
         height: 400px;
         width: calc(100% / 2);
         margin: 1rem;
+    }
+}
+
+/* Desktop */
+
+@media screen and (min-width: 1160px) {
+    .box-strategic{
+        width: 50%;
+    }
+
+    section.strategic-planning div.container{
+        flex-direction: row;
     }
 }
