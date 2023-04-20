@@ -150,7 +150,7 @@ section.benefits h2{
         width: 100%;
     }
 
-    section.strategic-planning{
+    section.strategic-planning div.container{
         flex-direction: column;
     }
 
@@ -164,12 +164,15 @@ section.benefits h2{
 
     div.row{
         display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
     }
 
     div.row div.box{
         height: 400px;
-        width: calc(100% / 2);
+        width: 300px;
         margin: 1rem;
+        
     }
 }
 
@@ -182,5 +185,11 @@ section.benefits h2{
 
     section.strategic-planning div.container{
         flex-direction: row;
+    }
+
+    div.row div.box{
+        height: 400px;
+        width: 300px;
+        margin: 1rem;
     }
 }
