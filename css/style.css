@@ -30,6 +30,11 @@ header nav ul li{
 .space-between{
     justify-content: space-between;
 }
+
+.flex-column{
+    flex-direction: column;
+}
+
 .container{
     margin: 0 auto;
 }
@@ -39,5 +44,18 @@ header nav ul li{
     height: 200px;
     background-color: #b5ddff;
     margin: 2rem;
+    border-radius: 10%;
+}
+
+.strategic-planning{
+    background-color: #9792e4;
+}
+
+.box-strategic{
+    width: 50%;
+    height: 400px;
+    background-color: red;
+    border: 2px dotted black;
+    margin: 1rem auto;
     border-radius: 10%;
 }
