@@ -22,6 +22,13 @@ header nav ul li{
     margin: 1rem;
 }
 
+section.benefits h2{
+    font-size: 2rem;
+    margin: 2rem;
+    color: white;
+    text-align: center;
+}
+
 /* RIMUOVERE ALTEZZE FISSE */
 
 .flex{
@@ -48,7 +55,7 @@ header nav ul li{
     border-radius: 10%;
 }
 
-.strategic-planning{
+.purple-background{
     background-color: #9792e4;
 }
 
