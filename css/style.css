@@ -66,6 +66,36 @@ div.box .fa-solid{
     margin-top: 2rem;
 }
 
+div.box-strategic.left p{
+    width: 50%;
+}
+
+div.box-strategic.right{
+    background-color: white;
+    width: 40%;
+    color: black;
+    text-align: center;
+}
+
+div.box-strategic img{
+    align-self: center;
+}
+
+div.circle{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    font-size: 2rem;
+    background-color: #9792e4;
+    align-self: center;
+    margin: 2rem 0;
+}
+
+div.box-strategic.right{
+    font-style: italic;
+    flex-direction: column;
+}
+
 div.box-small{
     flex-direction: column;
     text-align: center;
@@ -140,16 +170,23 @@ div.box-big button{
 
 .box-strategic{
     width: 50%;
-    height: 400px;
-    background-color: red;
-    border: 2px dotted black;
     border-radius: 10%;
+    color: white;
 }
+
+.box-strategic img{
+    width: 70%;
+}
+
+.box-strategic h2{
+    margin: 3rem 0;
+    font-size: 2rem;
+}
+
 
 .text-container{
     width: 200px;
     height: 200px;
-    background-color: red;
 }
 
 .card{
@@ -162,21 +199,16 @@ div.box-big button{
 .about-us{
     width: 70%;
     height: 500px;
-    background-color: red;
-    border: 2px dotted black;
 }
 
 .pic{
     width: 30%;
     height: 500px;
-    background-color: red;
-    border: 2px dotted black;
 }
 
 .get-started-container{
     width: 500px;
     height: 500px;
-    background-color: red;
 }
 
 /* Tablet */
@@ -230,11 +262,16 @@ div.box-big button{
 
 @media screen and (min-width: 1160px) {
     .box-strategic{
-        width: 50%;
+        width: 60%;
     }
 
     section.strategic-planning div.container{
         flex-direction: row;
+        width: 50%;
+    }
+
+    div.box-strategic.right{
+        margin-top: 20rem;
     }
 
     div.row div.box{
