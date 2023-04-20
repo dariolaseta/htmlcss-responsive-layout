@@ -3,3 +3,33 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+ul{
+    list-style-type: none;
+}
+
+header{
+    background-color: #0084fd;
+    font-size: 2rem;
+    color: white;
+}
+
+header nav ul li{
+    margin: 1rem;
+}
+
+.flex{
+    display: flex;
+    flex-direction: row;
+}
+
+.space-between{
+    justify-content: space-between;
+}
+.container{
+    
+}
