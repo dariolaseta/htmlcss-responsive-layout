@@ -113,6 +113,26 @@ section.benefits h2{
     text-align: center;
 }
 
+section.testimonials p{
+    margin: 2rem 0;
+}
+
+section.testimonials h2{
+    font-size: 2.5rem;
+    color: #9792e4;
+}
+
+div.card img{
+    border-radius: 50%;
+    width: 25%;
+}
+
+div.card p{
+    color: white;
+    font-size: 1.2rem;
+    margin-left: 2rem;
+}
+
 div.box-big p{
     margin: 2rem;
     width: 40%;
@@ -183,6 +203,9 @@ div.box-big button{
     font-size: 2rem;
 }
 
+.testimonials{
+    text-align: center;
+}
 
 .text-container{
     width: 200px;
@@ -190,10 +213,13 @@ div.box-big button{
 }
 
 .card{
-    width: 200px;
-    height: 300px;
-    border-radius: 10%;
+    border-radius: 2rem;
     background-color: #9792e4;
+    text-align: left;
+}
+
+.name{
+    font-weight: bold;
 }
 
 .about-us{
