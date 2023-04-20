@@ -148,4 +148,18 @@ section.benefits h2{
     section.testimonials{
         flex-direction: column;
     }
+
+    section.benefits{
+        flex-direction: column;
+    }
+
+    div.row{
+        display: flex;
+    }
+
+    div.row div.box{
+        height: 400px;
+        width: calc(100% / 2);
+        margin: 1rem;
+    }
 }
