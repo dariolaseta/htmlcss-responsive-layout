@@ -215,6 +215,32 @@ div.box-big button{
     margin-left: 2rem;
 }
 
+div.get-started-container{
+    text-align: center;
+}
+
+div.get-started-container p{
+    margin: 2rem 0;
+}
+
+div.get-started-container h2{
+    font-size: 1rem;
+    color: lightgrey;
+    margin-top: 2rem;
+}
+
+div.get-started-container button{
+    padding: 2rem 6rem;
+    border-radius: 3rem;
+    color: #9792e4;
+    background-color: white;
+}
+
+div.get-started-container a{
+    color: white;
+}
+
+
 /* RIMUOVERE ALTEZZE FISSE */
 
 .flex{
@@ -309,9 +335,20 @@ div.box-big button{
     width: 30%;
 }
 
-.get-started-container{
-    width: 500px;
-    height: 500px;
+.simple{
+    font-size: 3rem;
+    color: white;
+    font-weight: bold;
+}
+
+.free{
+    font-size: 5rem;
+    font-weight: bold;
+    color: #fdc15f;
+}
+
+.beta-foot{
+    color: white;
 }
 
 /* Tablet */
