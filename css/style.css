@@ -106,6 +106,10 @@ div.box-small p{
     padding: 1rem;
 }
 
+section.jumbo button{
+    margin-bottom: 2rem;
+}
+
 section.benefits h2{
     font-size: 2rem;
     margin: 2rem;
@@ -124,38 +128,49 @@ section.testimonials h2{
 
 div.card img{
     border-radius: 50%;
-    width: 25%;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin: 1rem;
+}
+
+div.card{
+    position: relative;
 }
 
 div.card p{
     color: white;
-    font-size: 1.2rem;
-    margin-left: 2rem;
+    font-size: 1.3rem;
+    margin: 2rem;
 }
 
-section.benefits div.row .box{
+section.benefits{
+    margin-top: 2rem;
+}
+
+section.benefits div.box{
     background-color: white;
 }
 
-section.benefits div.row .box h2{
+section.benefits div.box h2{
     font-size: 4rem;
     text-align: left;
     color: #9792e4;
 }
 
-section.benefits div.row .box p{
+section.benefits div.box p{
     text-align: left;
     color: #9792e4;
     margin: 2rem;
 }
 
-section.benefits div.row .box p.description{
+section.benefits div.box p.description{
     text-align: left;
     color: grey;
     margin: 2rem;
 }
 
-div.row .box button{
+section.benefits .box button{
     margin: 0 2rem 2rem;
     background-color: #9792e4;
 }
@@ -199,7 +214,7 @@ div.box-big button{
 }
 
 .box{
-    width: 50%;
+    width: 100%;
     background-color: #b5ddff;
     border-radius: 1.3rem;
     position: relative;
@@ -247,6 +262,9 @@ div.box-big button{
 
 .name{
     font-weight: bold;
+    position: absolute;
+    bottom: 2rem;
+    left: 15rem;
 }
 
 .about-us{
@@ -296,15 +314,9 @@ div.box-big button{
         flex-direction: column;
     }
 
-    div.row{
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-
-    div.row div.box{
+    section.benefits div.box{
         margin: 1rem;
-        
+        width: calc((100% / 2) - 1rem);
     }
 }
 
@@ -324,12 +336,15 @@ div.box-big button{
         margin-top: 20rem;
     }
 
-    div.row{
-        flex-wrap: nowrap;
+    section.benefits div.box{
         width: calc(100% / 3);
     }
+    
 
-    div.row div.box{
-        margin: 1rem;
+    div.row{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        
     }
 }
