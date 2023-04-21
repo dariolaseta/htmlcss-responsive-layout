@@ -30,13 +30,12 @@ button{
 
 footer{
     background-color: #333333;
-    height: 400px;
     color: white;
 }
 
 footer p{
-    margin: 1rem;
     text-align: center;
+    margin-bottom: 1rem;
 }
 
 footer a{
@@ -67,7 +66,7 @@ div.box .fa-solid{
 }
 
 div.box-strategic.left p{
-    width: 50%;
+    width: 70%;
 }
 
 div.box-strategic.right{
@@ -118,7 +117,7 @@ section.benefits h2{
 }
 
 section.testimonials p{
-    margin: 2rem 0;
+    margin: 3rem 0;
 }
 
 section.testimonials h2{
@@ -174,8 +173,11 @@ div.card p{
     margin: 2rem;
 }
 
-section.benefits{
-    margin-top: 2rem;
+section.benefits div.row{
+    margin-bottom: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
 }
 
 section.benefits div.box{
@@ -288,7 +290,7 @@ div.get-started-container a{
 
 .box-strategic{
     width: 50%;
-    border-radius: 10%;
+    border-radius: 3rem;
     color: white;
 }
 
@@ -303,11 +305,6 @@ div.get-started-container a{
 
 .testimonials{
     text-align: center;
-}
-
-.text-container{
-    width: 200px;
-    height: 200px;
 }
 
 .card{
@@ -379,13 +376,9 @@ div.get-started-container a{
         flex-direction: column;
     }
 
-    section.benefits{
-        flex-direction: column;
-    }
-
     section.benefits div.box{
-        margin: 1rem;
-        width: calc((100% / 2) - 1rem);
+        width: calc((100% / 2) - 1.5rem);
+        margin-bottom: 2rem;
     }
 }
 
@@ -406,14 +399,7 @@ div.get-started-container a{
     }
 
     section.benefits div.box{
-        width: calc(100% / 3);
+        width: calc((100% / 3) - 1.5rem);
+        margin-bottom: 2rem;
     }
-    
-    div.row{
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-    }
-
-    
 }
